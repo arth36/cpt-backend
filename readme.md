@@ -25,7 +25,3 @@
   - request desc: get profile picture
   - for: user
   - request example: **/api/requests/userRequests.http**
-# cpt-backend
-# cpt-backend
-"# cpt-backend" 
-# cpt-backend
