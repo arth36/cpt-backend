@@ -9,7 +9,7 @@ const checkCors = require('./api/middlewares/checkCors');
 const app = express();
 
 mongoose
-  .connect('mongodb://localhost:27017/cpt', {
+  .connect('mongodb+srv://arthmodi:nikhilarth3699@cluster0-kp2md.mongodb.net/test?retryWrites=true&w=majority', {
     useCreateIndex: true,
     useNewUrlParser: true,
     useFindAndModify: false
