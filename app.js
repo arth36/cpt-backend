@@ -14,7 +14,7 @@ mongoose
     useNewUrlParser: true,
     useFindAndModify: false
   })
-  .then(() => console.log('connected'))
+  .then(() => console.log('Hello, you are connected'))
   .catch(error => console.log(error));
 
 const userRoutes = require('./api/routes/userRoutes');
