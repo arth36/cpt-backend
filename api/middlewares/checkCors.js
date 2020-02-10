@@ -1,7 +1,7 @@
 const cors = require('cors');
 
 const corsOptions = {
-  origin: 'http://localhost:8080',
+  origin: 'https://cpt-project.firebaseapp.com/',
   credentials: true
 };
 
